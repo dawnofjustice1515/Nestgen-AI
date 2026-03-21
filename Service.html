@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore NextGenAI Technology Services: Website Development, Upgrades, Hosting and Management.">
+    <title>Our Services | NextGenAI Technology</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-header {
+            padding: 160px 0 100px;
+            text-align: center;
+            background: linear-gradient(180deg, rgba(11,12,16,0.7) 0%, var(--bg-color) 100%), url('file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/header_bg_service_1773403958089.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            border-bottom: 1px solid var(--glass-border);
+            position: relative;
+            z-index: 1;
+        }
+
+        .page-header h1 {
+            text-shadow: 0 5px 15px rgba(0,0,0,0.8);
+        }
+
+        .page-header p {
+            text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+        }
+
+        .service-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-bottom: 6rem;
+        }
+
+        .service-row.reverse {
+            direction: rtl;
+        }
+
+        .service-row.reverse > * {
+            direction: ltr;
+        }
+
+        .service-feature-list {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+
+        .service-feature-list li {
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .service-feature-list li::before {
+            content: "✓";
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .service-row, .service-row.reverse {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                direction: ltr;
+                text-align: center;
+            }
+            .service-feature-list li {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Animated Global Background -->
+    <div class="moving-bg"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">NextGen<span>AI</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                    <li><a href="Industries.html">Industries</a></li>
+                    <li><a href="Testimonials.html">Testimonials</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container reveal">
+            <h1>Our Elite Services</h1>
+            <p style="font-size: 1.25rem; max-width: 700px; margin: 0 auto;">End-to-end digital solutions designed to scale your enterprise.</p>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="container">
+            <!-- Development -->
+            <div class="service-row reveal float-img">
+                <div class="service-img">
+                    <img src="file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/live_service_dev_1773387295692.png" alt="Website Development" style="width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(102, 252, 241, 0.2);">
+                </div>
+                <div class="service-text">
+                    <h2 style="color: var(--accent-color);">Website Development</h2>
+                    <p>We architect custom, high-performance web applications using the latest modern stacks. From stunning marketing sites to complex SaaS platforms, we build digital experiences that drive engagement.</p>
+                    <ul class="service-feature-list">
+                        <li>Custom Full-Stack Architecture</li>
+                        <li>Mobile-First Responsive UI</li>
+                        <li>Jamstack & Single Page Applications (SPAs)</li>
+                        <li>E-Commerce Integrations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Upgrade -->
+            <div class="service-row reverse reveal float-img">
+                <div class="service-img">
+                    <img src="file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/live_service_upgrade_1773387312426.png" alt="Website Upgrade & Redesign" style="width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(102, 252, 241, 0.2);">
+                </div>
+                <div class="service-text">
+                    <h2 style="color: var(--accent-color);">Website Upgrade & Redesign</h2>
+                    <p>Is your current website feeling slow, outdated, or failing to convert? We inject vital upgrades into legacy systems, rebuilding interfaces for modern standards and drastically improving load times and SEO.</p>
+                    <ul class="service-feature-list">
+                        <li>UI/UX Modernization</li>
+                        <li>Performance & Speed Optimization (Core Web Vitals)</li>
+                        <li>Migration to Modern Frameworks</li>
+                        <li>Mobile Responsiveness Overhaul</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hosting -->
+            <div class="service-row reveal float-img">
+                <div class="service-img">
+                    <img src="file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/live_service_hosting_1773387328796.png" alt="Cloud Hosting" style="width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(102, 252, 241, 0.2);">
+                </div>
+                <div class="service-text">
+                    <h2 style="color: var(--accent-color);">Premium Cloud Hosting</h2>
+                    <p>Forget shared servers. We deploy your site on premium, dedicated cloud infrastructure (AWS, Vercel, Netlify) ensuring enterprise-grade security, global CDN delivery, and 99.99% uptime.</p>
+                    <ul class="service-feature-list">
+                        <li>Global CDN Edge Caching</li>
+                        <li>Free SSL Certificates</li>
+                        <li>DDoS Protection & Web Application Firewall</li>
+                        <li>Automated Daily Backups</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Management -->
+            <div class="service-row reverse reveal float-img" style="margin-bottom: 0;">
+                <div class="service-img">
+                    <img src="file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/live_service_mgmt_1773387345147.png" alt="Comprehensive Management" style="width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(102, 252, 241, 0.2);">
+                </div>
+                <div class="service-text">
+                    <h2 style="color: var(--accent-color);">Comprehensive Management</h2>
+                    <p>Focus on your core business while we handle the technical heavy lifting. Our management plans keep your platform secure, up-to-date, and consistently evolving.</p>
+                    <ul class="service-feature-list">
+                        <li>24/7 Monitoring & Incident Response</li>
+                        <li>Plugin, Dependency & Security Updates</li>
+                        <li>Content Updates & Minor Revisions</li>
+                        <li>Monthly Performance Reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Preview -->
+    <section class="section" style="background: rgba(31,40,51,0.3); text-align: center;">
+        <div class="container reveal">
+            <h2>Powered by Modern Tech</h2>
+            <p>We leverage industry-leading tools to deliver uncompromised quality.</p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-top: 3rem; font-size: 1.5rem; font-weight: bold; color: var(--text-secondary);">
+                <span>React/Next.js</span>
+                <span>•</span>
+                <span>Node.js</span>
+                <span>•</span>
+                <span>AWS</span>
+                <span>•</span>
+                <span>PostgreSQL</span>
+                <span>•</span>
+                <span>Tailwind/CSS3</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="cta-banner reveal">
+                <h2>Ready to transform your ideas into reality?</h2>
+                <a href="Contact.html" class="btn btn-primary" style="margin-top: 1.5rem;">Get a Project Estimate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1rem;">NextGen<span>AI</span></a>
+                    <p>Next-generation technology solutions built for modern businesses.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Service.html">Our Services</a></li>
+                        <li><a href="Industries.html">Industries</a></li>
+                        <li><a href="Testimonials.html">Testimonials</a></li>
+                        <li><a href="Contact.html">Get in Touch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul style="color: var(--text-secondary);">
+                        <li>ngaitechsolution@gmail.com</li>
+                        <li>+91 8084092050</li>
+                        <li>Pan India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2021 NextGenAI Technologies Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
