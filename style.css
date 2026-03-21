@@ -38,7 +38,7 @@ body {
   z-index: -5; /* Place deep in background */
   background-image: 
     linear-gradient(rgba(11,12,16,0.85), rgba(11,12,16,0.85)),
-    url('file:///C:/Users/rites/.gemini/antigravity/brain/25545eb5-5277-4ad1-b51b-b9562a341a34/site_bg_pattern_1773385852781.png');
+    url('assets/images/site_bg_pattern_1773385852781.png');
   background-repeat: repeat;
   background-size: 800px 800px;
   animation: bgPan 40s linear infinite;
@@ -189,6 +189,18 @@ header.scrolled {
 }
 
 .logo span { color: var(--accent-color); }
+
+.site-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
 
 .nav-links {
   display: flex;
